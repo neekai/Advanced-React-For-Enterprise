@@ -1,0 +1,48 @@
+/*=============================================
+=            Foundation - colors              =
+=============================================*/
+
+/**
+ * This file defines the actual colors that will be used for styling. They will default to the palette
+ * we defined in the _variable.scss file. This is our default palette, and devs can override this
+ * with their own variables.
+ */
+
+/*=============================================
+=            Global text colors               =
+=============================================*/
+
+// dse represents what system we are creating. That way if there are other css variables from different packages in the app, there is no conflict
+
+/** 
+ * If the end user doesn't use scss, then they can just replace all instance of body text color by setting the css var (--dse-body-text-color)
+ * If the end user does use scss, they can easily override the default by defining body-text-color
+*/
+
+$body-text-color: var(--dse-body-text-color, $dark) !default;
+$body-bg-color: var(--dse-body-bg-color, $white) !default;
+
+/*=============================================
+=            Buttons            =
+=============================================*/
+
+$btn-primary-color: var(--dse-btn-primary-color, $white) !default;
+$btn-primary-bg: var(--dse-btn-primary-bg, $green) !default;
+$btn-primary-bg-hover: var(--dse-btn-primary-bg-hover, $green-light) !default;
+
+/*=============================================
+=                 Forms                       =
+=============================================*/
+$form-border-color: var(--dse-form-border-color, $white-dark) !default;
+$form-bg-color: var(--dse-form-bg-color, $white) !default;
+$form-bg-option-selected: var(--dse-form-bg-option-selected, $green) !default;
+$form-color-option-selected: var(
+  --dse-form-color-option-selected,
+  $white
+) !default;
+$form-bg-color-hover: var(--dse-form-bg-color-hover, $white-dark) !default;
+$form-color: var(--dse-form-color, $dark) !default;
+$form-bg: var(--dse-form-bg, $white) !default;
+$form-error-color: var(--dse-form-error-color, $red) !default;
+$form-error-border: var(--dse-form-error-border, $red) !default;
+$form-border-focus-color: var(--dse-form-border-focus-color, $green) !default;
