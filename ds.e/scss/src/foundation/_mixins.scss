@@ -34,34 +34,34 @@
   margin: map-get($spacing, $space);
 }
 
-@mixin paddingLeft($space) {
+@mixin padding-left($space) {
   padding-left: map-get($spacing, $space);
 }
 
-@mixin paddingRight($space) {
+@mixin padding-right($space) {
   padding-right: map-get($spacing, $space);
 }
 
-@mixin paddingTop($space) {
+@mixin padding-top($space) {
   padding-top: map-get($spacing, $space);
 }
 
-@mixin paddingBottom($space) {
+@mixin padding-bottom($space) {
   padding-bottom: map-get($spacing, $space);
 }
 
-@mixin marginLeft($space) {
+@mixin margin-left($space) {
   margin-left: map-get($spacing, $space);
 }
 
-@mixin marginTop($space) {
+@mixin margin-top($space) {
   margin-top: map-get($spacing, $space);
 }
 
-@mixin marginRight($space) {
+@mixin margin-right($space) {
   margin-right: map-get($spacing, $space);
 }
 
-@mixin marginBottom($space) {
+@mixin margin-bottom($space) {
   margin-bottom: map-get($spacing, $space);
 }
