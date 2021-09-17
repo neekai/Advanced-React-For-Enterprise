@@ -8,6 +8,14 @@
     "lint": "stylelint './**/*.scss'",
     "lint:fix": "npm run lint -- --fix"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.scss": "npm run lint -- --fix"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
